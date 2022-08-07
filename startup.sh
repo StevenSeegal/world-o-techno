@@ -10,4 +10,4 @@ amixer cset numid=3 1
 amixer sset PCM 100%
 
 # play our tune
-cat /home/pi/world-o-techno/world-o-techno.rb|sonic_pi
+cat /home/steven/world-o-techno/world-o-techno.rb|sonic_pi

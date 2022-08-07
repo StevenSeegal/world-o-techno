@@ -2,7 +2,7 @@
 # world-o-techno
 # Acid sample coded by Sam Aaron
 # Hacked around by RS & JHR
-# This file should be in /home/pi/world-o-techno so the startup script can find it
+# This file should be in /home/steven/world-o-techno so the startup script can find it
 
 # See http://www.jarkman.co.uk/catalog/robots/worldotechno.htm and
 # https://github.com/jarkman/world-o-techno for background
@@ -10,7 +10,7 @@
 # GPS ruby code derived from https://github.com/ndarilek/rb-gps
 #
 
-require '/home/pi/world-o-techno/gps/gps.rb'
+require '/home/steven/world-o-techno/gps/gps.rb'
 use_debug false
 
 gps = Gps::Receiver.create('gpsd',:host => 'localhost', :port => 2947)

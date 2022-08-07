@@ -5,7 +5,7 @@ See http://www.jarkman.co.uk/catalog/robots/worldotechno.htm for hardware detail
 
 ## Getting started:
 
-Check this repository out into ```/home/pi```
+Check this repository out into ```/home/steven```
 
 Install gpsd (thanks to http://blog.retep.org/2012/06/18/getting-gps-to-work-on-a-raspberry-pi/) with
 ```
@@ -36,7 +36,7 @@ pi@raspberrypi:~$ sudo vi /etc/xdg/lxsession/LXDE-pi/autostart
 and add these lines at the end:
 ```
 @sonic-pi
-lxterminal --command "/home/pi/world-o-techno/startup.sh"
+lxterminal --command "/home/steven/world-o-techno/startup.sh"
 ```
 
 Now reboot your Pi and see if it works.
